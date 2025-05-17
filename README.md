@@ -96,8 +96,8 @@ git remote prune upstream
 
 ## 3) Questions
 
-1. What is the purpose of `git remote add upstream`?
-2. Why does Git separate the actions of `fetch` and `merge` instead of just doing everything in one step?
+1. What is the purpose of `git remote add upstream`? The main purpuse is to be able to merge the newest changes of the repo from the owner.
+2. Why does Git separate the actions of `fetch` and `merge` instead of just doing everything in one step? You could see first what changed, cause it is also possible that the original repo is not as cgood as your own.
 3. What is the difference between `origin` and `upstream` in the context of a forked repository?
 4. What would happen if you skipped the `merge` step and just pushed after `fetch`?
 5. Is it safe to overwrite your fork with upstream changes? Under what circumstances should you avoid this?
